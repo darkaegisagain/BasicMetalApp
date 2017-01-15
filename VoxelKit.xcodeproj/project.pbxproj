@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFCF5E9F1E2C0A9600CD1990 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = FFCF5E9E1E2C0A9600CD1990 /* AppDelegate.mm */; };
+		FFCF5EA21E2C0A9600CD1990 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCF5EA11E2C0A9600CD1990 /* main.m */; };
+		FFCF5EA51E2C0A9600CD1990 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FFCF5EA41E2C0A9600CD1990 /* ViewController.mm */; };
+		FFCF5EA71E2C0A9600CD1990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCF5EA61E2C0A9600CD1990 /* Assets.xcassets */; };
+		FFCF5EAA1E2C0A9600CD1990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCF5EA81E2C0A9600CD1990 /* Main.storyboard */; };
+		FFCF5EB31E2C0F8E00CD1990 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCF5EB21E2C0F8E00CD1990 /* MetalKit.framework */; };
+		FFCF5EB71E2C107200CD1990 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = FFCF5EB61E2C107200CD1990 /* Shaders.metal */; };
+		FFCF5EB81E2C107F00CD1990 /* Shaders.metal in Resources */ = {isa = PBXBuildFile; fileRef = FFCF5EB61E2C107200CD1990 /* Shaders.metal */; };
+		FFCF5EBA1E2C122C00CD1990 /* ModelIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCF5EB91E2C122C00CD1990 /* ModelIO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFCF5E9A1E2C0A9500CD1990 /* VoxelKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoxelKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCF5E9D1E2C0A9500CD1990 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFCF5E9E1E2C0A9600CD1990 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		FFCF5EA11E2C0A9600CD1990 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFCF5EA31E2C0A9600CD1990 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFCF5EA41E2C0A9600CD1990 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		FFCF5EA61E2C0A9600CD1990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFCF5EA91E2C0A9600CD1990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFCF5EAB1E2C0A9600CD1990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCF5EB21E2C0F8E00CD1990 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		FFCF5EB61E2C107200CD1990 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		FFCF5EB91E2C122C00CD1990 /* ModelIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ModelIO.framework; path = System/Library/Frameworks/ModelIO.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFCF5E971E2C0A9500CD1990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCF5EBA1E2C122C00CD1990 /* ModelIO.framework in Frameworks */,
+				FFCF5EB31E2C0F8E00CD1990 /* MetalKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFCF5E911E2C0A9500CD1990 = {
+			isa = PBXGroup;
+			children = (
+				FFCF5E9C1E2C0A9500CD1990 /* VoxelKit */,
+				FFCF5E9B1E2C0A9500CD1990 /* Products */,
+				FFCF5EB11E2C0F8E00CD1990 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFCF5E9B1E2C0A9500CD1990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF5E9A1E2C0A9500CD1990 /* VoxelKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFCF5E9C1E2C0A9500CD1990 /* VoxelKit */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF5EB51E2C106700CD1990 /* Resources */,
+				FFCF5E9D1E2C0A9500CD1990 /* AppDelegate.h */,
+				FFCF5E9E1E2C0A9600CD1990 /* AppDelegate.mm */,
+				FFCF5EA31E2C0A9600CD1990 /* ViewController.h */,
+				FFCF5EA41E2C0A9600CD1990 /* ViewController.mm */,
+				FFCF5EA61E2C0A9600CD1990 /* Assets.xcassets */,
+				FFCF5EA81E2C0A9600CD1990 /* Main.storyboard */,
+				FFCF5EAB1E2C0A9600CD1990 /* Info.plist */,
+				FFCF5EA01E2C0A9600CD1990 /* Supporting Files */,
+			);
+			path = VoxelKit;
+			sourceTree = "<group>";
+		};
+		FFCF5EA01E2C0A9600CD1990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF5EA11E2C0A9600CD1990 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFCF5EB11E2C0F8E00CD1990 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF5EB91E2C122C00CD1990 /* ModelIO.framework */,
+				FFCF5EB21E2C0F8E00CD1990 /* MetalKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFCF5EB51E2C106700CD1990 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF5EB61E2C107200CD1990 /* Shaders.metal */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFCF5E991E2C0A9500CD1990 /* VoxelKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCF5EAE1E2C0A9600CD1990 /* Build configuration list for PBXNativeTarget "VoxelKit" */;
+			buildPhases = (
+				FFCF5E961E2C0A9500CD1990 /* Sources */,
+				FFCF5E971E2C0A9500CD1990 /* Frameworks */,
+				FFCF5E981E2C0A9500CD1990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoxelKit;
+			productName = VoxelKit;
+			productReference = FFCF5E9A1E2C0A9500CD1990 /* VoxelKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFCF5E921E2C0A9500CD1990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Michael Larson";
+				TargetAttributes = {
+					FFCF5E991E2C0A9500CD1990 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFCF5E951E2C0A9500CD1990 /* Build configuration list for PBXProject "VoxelKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFCF5E911E2C0A9500CD1990;
+			productRefGroup = FFCF5E9B1E2C0A9500CD1990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFCF5E991E2C0A9500CD1990 /* VoxelKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFCF5E981E2C0A9500CD1990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCF5EA71E2C0A9600CD1990 /* Assets.xcassets in Resources */,
+				FFCF5EAA1E2C0A9600CD1990 /* Main.storyboard in Resources */,
+				FFCF5EB81E2C107F00CD1990 /* Shaders.metal in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFCF5E961E2C0A9500CD1990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCF5EB71E2C107200CD1990 /* Shaders.metal in Sources */,
+				FFCF5EA51E2C0A9600CD1990 /* ViewController.mm in Sources */,
+				FFCF5EA21E2C0A9600CD1990 /* main.m in Sources */,
+				FFCF5E9F1E2C0A9600CD1990 /* AppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFCF5EA81E2C0A9600CD1990 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFCF5EA91E2C0A9600CD1990 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFCF5EAC1E2C0A9600CD1990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FFCF5EAD1E2C0A9600CD1990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FFCF5EAF1E2C0A9600CD1990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VoxelKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nvidia.VoxelKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFCF5EB01E2C0A9600CD1990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VoxelKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nvidia.VoxelKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFCF5E951E2C0A9500CD1990 /* Build configuration list for PBXProject "VoxelKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCF5EAC1E2C0A9600CD1990 /* Debug */,
+				FFCF5EAD1E2C0A9600CD1990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCF5EAE1E2C0A9600CD1990 /* Build configuration list for PBXNativeTarget "VoxelKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCF5EAF1E2C0A9600CD1990 /* Debug */,
+				FFCF5EB01E2C0A9600CD1990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFCF5E921E2C0A9500CD1990 /* Project object */;
+}
